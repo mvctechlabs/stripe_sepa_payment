@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+	outline: none;
+}
+body {
+  background-color: #f0f0f0;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 60px;
+}
+.container {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 40px;
+    width: 600px;
+ 
+}
+h1 {
+    color: #666;
+    margin: 0;
+    padding: 0 0 50px 0;
+}
+label, input[type="submit"]{
+	 font-size: 18px;
+    font-weight: 400; 
+    margin: 10px 0px;
+    padding: 0; 
+    text-transform: uppercase;
+}
+input[type="submit"]{
+    background: #4100cb;
+  border: 0;
+  padding: 0.7em 2em;
+  cursor: pointer;
+  color: #fff;
+  border-radius: .2em;
+}
+input[type="file"] {
+  cursor: pointer !Important;
+}
+input[type="file"]::-webkit-file-upload-button {
+  background: #21b6db;
+  border: 0;
+  padding: 1em 2em;
+  cursor: pointer;
+  color: #fff;
+  border-radius: .2em;
+}
+input[type="file"]::-ms-browse {
+  background: #4100cb;
+  border: 0;
+  padding: 1em 2em;
+  cursor: pointer;
+  color: #fff;
+  border-radius: .2em;
+}
