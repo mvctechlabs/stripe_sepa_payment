@@ -80,7 +80,7 @@ $amount = (number_format(9.99, 2, '.', '') * 100);
                                 $ibanData = ibanCurlValidator($sheet_row[0], true);
                             
                                 $cusotmer = $stripe->customers->create(
-                                    ['email' => strtolower(sanitizeString($sheet_row[1]).'_'.random_strings(4)).'@annuaire-europeen.com',
+                                    ['email' => strtolower(sanitizeString($sheet_row[1]).'_'.random_strings(4)).'@yourdomain.com',
                                     'name'=> $sheet_row[1],
                                     'address' => !$ibanData ? null : $ibanData,
                                     'source' => $creating_source->id
